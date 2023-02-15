@@ -5,12 +5,12 @@ function obtenerMayor(x, y) {
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
-   if (x > y){
-      return(x)
-   }else if(y > x) {
-      return(y)
-   }else {
-      return(y)
+   if (x > y) {
+      return (x)
+   } else if (y > x) {
+      return (y)
+   } else {
+      return (y)
    }
 }
 
@@ -56,7 +56,7 @@ function saludo(idioma) {
       return "Ni Hao!";
    } else if (idioma == "ingles") {
       return "Hello!";
-   }  else{
+   } else {
       return "Hola!"
    }
 }
@@ -70,7 +70,7 @@ function colors(color) {
    // Si no es ninguno de esos colores           --> "Color not found".
    // IMPORTANTE: utilizar el statement SWITCH.
    // Tu código:
-   switch(color) {
+   switch (color) {
       case "blue":
          return "This is blue";
       case "red":
